@@ -1,10 +1,26 @@
 .ctn {
   display: flex;
-  justify-content: center;
-  margin: auto;
+  align-items: center;
+  flex-flow: column;
 }
 
 .ctn__nav {
   object-fit: cover;
+}
+
+.ctn__location {
+  display: flex;
+}
+
+.ctn__location i {
+  font-size: 20px;
+  align-self: center;
+  padding: 5px;
+}
+
+.ctn__menu {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
 /*# sourceMappingURL=main.css.map */
