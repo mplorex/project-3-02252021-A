@@ -18,4 +18,14 @@
         flex-flow: column;
         align-items: center;
     }
+    &__explore {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ba00dd;
+        color: #fff;
+        width: 240px;
+        height: 40px;
+        border-radius: 20px;
+    }
 }

@@ -23,4 +23,15 @@
   flex-flow: column;
   align-items: center;
 }
+
+.ctn__explore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ba00dd;
+  color: #fff;
+  width: 240px;
+  height: 40px;
+  border-radius: 20px;
+}
 /*# sourceMappingURL=main.css.map */
