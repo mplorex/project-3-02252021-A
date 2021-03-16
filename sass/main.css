@@ -1,0 +1,10 @@
+.ctn {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.ctn__nav {
+  object-fit: cover;
+}
+/*# sourceMappingURL=main.css.map */

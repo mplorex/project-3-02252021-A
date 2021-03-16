@@ -1,0 +1,8 @@
+.ctn {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    &__nav {
+        object-fit: cover;
+    }
+}
