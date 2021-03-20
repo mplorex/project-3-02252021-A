@@ -1,0 +1,29 @@
+.cards {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    &__box {
+        width: 300px;
+        margin: 20px;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 2px 2px 5px 5px #e6e6e6;
+    }
+    &__bottom {
+        display: flex;
+        flex-flow: row;
+        line-height: 10px;
+        &-heart {
+            font-size: 25px;
+        }
+        &-text {
+            padding: 0px 0px 0px 10px;
+        }
+    }
+    img {
+        height: 180px;
+        width: 300px;
+    }
+    @include lit-grey();
+}

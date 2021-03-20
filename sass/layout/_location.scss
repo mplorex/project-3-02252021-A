@@ -1,0 +1,11 @@
+.location {
+    display: flex;
+    justify-content: center;
+    @include drk-grey();
+    width: 100%;
+    i {
+        font-size: 20px;
+        align-self: center;
+        padding: 5px;
+        }
+    }
