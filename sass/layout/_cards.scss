@@ -13,17 +13,32 @@
     &__bottom {
         display: flex;
         flex-flow: row;
-        line-height: 10px;
-        &-heart {
-            font-size: 25px;
-        }
+        line-height: 0px;
+        margin-top: -8px;
+        justify-content: space-between;
         &-text {
             padding: 0px 0px 0px 10px;
         }
     }
     img {
         height: 180px;
+        border-radius: 10px 10px 0px 0px;
         width: 300px;
     }
     @include lit-grey();
+}
+.icon {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    &__heart {
+        font-size: 30px;
+        &.far.fa-heart {
+            &:hover {
+                color: lawngreen;
+                transform: scale(1.1);
+                flood-color: lawngreen;
+            }
+        }
+    }
 }

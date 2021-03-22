@@ -62,7 +62,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ff2fd9;
+  background: #ff2fd9;
+  background: linear-gradient(135deg, #ff2fd9 0%, #a100c1 96%, #a100c1 96%, #a100c1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff2fd9', endColorstr='#a100c1',GradientType=1 );
   color: #fff;
   width: 240px;
   height: 40px;
@@ -92,11 +94,9 @@
 .cards__bottom {
   display: flex;
   flex-flow: row;
-  line-height: 10px;
-}
-
-.cards__bottom-heart {
-  font-size: 25px;
+  line-height: 0px;
+  margin-top: -8px;
+  justify-content: space-between;
 }
 
 .cards__bottom-text {
@@ -105,6 +105,23 @@
 
 .cards img {
   height: 180px;
+  border-radius: 10px 10px 0px 0px;
   width: 300px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.icon__heart {
+  font-size: 30px;
+}
+
+.icon__heart.far.fa-heart:hover {
+  color: lawngreen;
+  transform: scale(1.1);
+  flood-color: lawngreen;
 }
 /*# sourceMappingURL=main.css.map */
