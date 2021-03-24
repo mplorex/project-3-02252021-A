@@ -75,6 +75,15 @@
   object-fit: cover;
 }
 
+.new {
+  margin: -250px 0px 0px 210px;
+  width: 70px;
+  text-align: center;
+  color: #15ac88;
+  background-color: #84e9d0;
+  font-size: 13px;
+}
+
 .cards {
   display: flex;
   flex-flow: column;
@@ -109,19 +118,27 @@
   width: 300px;
 }
 
-.icon {
-  display: flex;
-  align-items: center;
-  padding-right: 20px;
+.cards .love-heart {
+  padding: 23px 20px 0px 10px;
+  font-size: 25px;
 }
 
-.icon__heart {
-  font-size: 30px;
+.love-heart input [type=checked]
+.cards:checked + label {
+  background-color: blue;
 }
 
-.icon__heart.far.fa-heart:hover {
-  color: lawngreen;
-  transform: scale(1.1);
-  flood-color: lawngreen;
+.cards i.far.fa-heart:hover {
+  transform: scale(2);
+  transition: transform 1000ms;
+  background-color: brown;
+}
+
+.cards .love-heart-input {
+  display: none;
+}
+
+.cards .love-heart input {
+  display: none;
 }
 /*# sourceMappingURL=main.css.map */

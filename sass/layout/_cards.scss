@@ -1,3 +1,4 @@
+
 .cards {
     display: flex;
     flex-flow: column;
@@ -25,20 +26,33 @@
         border-radius: 10px 10px 0px 0px;
         width: 300px;
     }
-    @include lit-grey();
-}
-.icon {
-    display: flex;
-    align-items: center;
-    padding-right: 20px;
-    &__heart {
-        font-size: 30px;
-        &.far.fa-heart {
-            &:hover {
-                color: lawngreen;
-                transform: scale(1.1);
-                flood-color: lawngreen;
-            }
+    background-color: $lit;
+
+
+
+
+    .love-heart {
+        padding: 23px 20px 0px 10px;
+        font-size: 25px;
+    }
+    .love-heart input [type=checked]
+        &:checked+label {
+            background-color: blue;
         }
+    i.far.fa-heart {
+        &:hover {
+            transform: scale(2);
+            transition: transform 1000ms;
+            background-color: brown;
+        }
+
+
+    }
+
+    .love-heart-input { 
+        display: none;     
+    }
+    .love-heart input {
+        display: none;
     }
 }

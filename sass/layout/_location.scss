@@ -1,7 +1,7 @@
 .location {
     display: flex;
     justify-content: center;
-    @include drk-grey();
+    background-color: $drk;
     width: 100%;
     i {
         font-size: 20px;
