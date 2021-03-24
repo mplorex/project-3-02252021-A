@@ -1,11 +1,15 @@
 
+@import "../abstracts/mixins";
+
 .cards {
     display: flex;
     flex-flow: column;
     align-items: center;
     width: 100%;
+    height: 500px;
     border-radius: 10px 10px 0px 0px;
     &__box {
+        background-color: #fff;
         width: 300px;
         margin: 20px;
         border-radius: 10px 10px 10px 10px;

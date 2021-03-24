@@ -75,25 +75,18 @@
   object-fit: cover;
 }
 
-.new {
-  margin: -250px 0px 0px 210px;
-  width: 70px;
-  text-align: center;
-  color: #15ac88;
-  background-color: #84e9d0;
-  font-size: 13px;
-}
-
 .cards {
   display: flex;
   flex-flow: column;
   align-items: center;
   width: 100%;
+  height: 500px;
   border-radius: 10px 10px 0px 0px;
   background-color: #f6f6f6;
 }
 
 .cards__box {
+  background-color: #fff;
   width: 300px;
   margin: 20px;
   border-radius: 10px 10px 10px 10px;
@@ -140,5 +133,14 @@
 
 .cards .love-heart input {
   display: none;
+}
+
+.new {
+  margin: -250px 0px 0px 210px;
+  width: 70px;
+  text-align: center;
+  color: #15ac88;
+  background-color: #84e9d0;
+  font-size: 13px;
 }
 /*# sourceMappingURL=main.css.map */
