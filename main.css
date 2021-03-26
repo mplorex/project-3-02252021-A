@@ -85,6 +85,21 @@
   background-color: #f6f6f6;
 }
 
+.cards__image {
+  object-fit: fill;
+  height: 150px;
+}
+
+.cards__image .new button {
+  display: flex;
+  justify-content: center;
+  padding: 0px 10px 0px 10px;
+  width: 60px;
+  border-radius: 8px;
+  background-color: lawngreen;
+  border: lawngreen;
+}
+
 .cards__box {
   background-color: #fff;
   width: 300px;
@@ -103,44 +118,13 @@
 
 .cards__bottom-text {
   padding: 0px 0px 0px 10px;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 .cards img {
   height: 180px;
   border-radius: 10px 10px 0px 0px;
   width: 300px;
-}
-
-.cards .love-heart {
-  padding: 23px 20px 0px 10px;
-  font-size: 25px;
-}
-
-.love-heart input [type=checked]
-.cards:checked + label {
-  background-color: blue;
-}
-
-.cards i.far.fa-heart:hover {
-  transform: scale(2);
-  transition: transform 1000ms;
-  background-color: brown;
-}
-
-.cards .love-heart-input {
-  display: none;
-}
-
-.cards .love-heart input {
-  display: none;
-}
-
-.new {
-  margin: -250px 0px 0px 210px;
-  width: 70px;
-  text-align: center;
-  color: #15ac88;
-  background-color: #84e9d0;
-  font-size: 13px;
 }
 /*# sourceMappingURL=main.css.map */

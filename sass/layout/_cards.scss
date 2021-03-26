@@ -8,6 +8,21 @@
     width: 100%;
     height: 500px;
     border-radius: 10px 10px 0px 0px;
+    &__image {
+        object-fit: fill;
+        height: 150px;
+        .new {
+            button {
+            display: flex;
+            justify-content: center;
+            padding: 0px 10px 0px 10px;
+            width: 60px;
+            border-radius: 8px;
+            background-color: lawngreen;
+            border: lawngreen;
+            }
+        }
+    }
     &__box {
         background-color: #fff;
         width: 300px;
@@ -23,6 +38,8 @@
         justify-content: space-between;
         &-text {
             padding: 0px 0px 0px 10px;
+            background-clip: text;
+            text-fill-color: transparent;
         }
     }
     img {
@@ -31,32 +48,6 @@
         width: 300px;
     }
     background-color: $lit;
-
-
-
-
-    .love-heart {
-        padding: 23px 20px 0px 10px;
-        font-size: 25px;
-    }
-    .love-heart input [type=checked]
-        &:checked+label {
-            background-color: blue;
-        }
-    i.far.fa-heart {
-        &:hover {
-            transform: scale(2);
-            transition: transform 1000ms;
-            background-color: brown;
-        }
-
-
-    }
-
-    .love-heart-input { 
-        display: none;     
-    }
-    .love-heart input {
-        display: none;
-    }
+}
+.new {
 }
