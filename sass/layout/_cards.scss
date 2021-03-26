@@ -13,13 +13,12 @@
         height: 150px;
         .new {
             button {
-            display: flex;
-            justify-content: center;
-            padding: 0px 10px 0px 10px;
-            width: 60px;
-            border-radius: 8px;
-            background-color: lawngreen;
-            border: lawngreen;
+                display: flex;
+                justify-content: center;
+                width: 60px;
+                border-radius: 8px;
+                background-color: lawngreen;
+                border: lawngreen;
             }
         }
     }
@@ -49,5 +48,17 @@
     }
     background-color: $lit;
 }
-.new {
+.love {
+    .clear {
+        display: none;
+    }
+    &__heart {
+        &-input:checked + label {
+            .clear {
+                display: inline;
+            }
+            .fill
+
+        }
+    }
 }
