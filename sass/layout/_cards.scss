@@ -1,5 +1,6 @@
 
 @import "../abstracts/mixins";
+@import "../components/buttons";
 
 .cards {
     display: flex;
@@ -11,16 +12,6 @@
     &__image {
         object-fit: fill;
         height: 150px;
-        .new {
-            button {
-                display: flex;
-                justify-content: center;
-                width: 60px;
-                border-radius: 8px;
-                background-color: lawngreen;
-                border: lawngreen;
-            }
-        }
     }
     &__box {
         background-color: #fff;
@@ -31,34 +22,32 @@
     }
     &__bottom {
         display: flex;
-        flex-flow: row;
-        line-height: 0px;
-        margin-top: -8px;
-        justify-content: space-between;
+        line-height: 1px;
         &-text {
-            padding: 0px 0px 0px 10px;
-            background-clip: text;
-            text-fill-color: transparent;
+            display: flex;
+            flex-flow: wrap;
+            .love {
+                &__heart {
+                    padding: 0px 20px 0px 0px;
+                    font-size: 30px;
+                .fill {
+                    display: none;
+                }
+                input {
+                    display: none;
+                }
+                &-input:checked + label {
+                    .fill {
+                        display: inline;
+                        color: blue;
+                    }
+                    .clear {
+                        display: none;
+                    }
+                }
+            }
+            }
         }
-    }
-    img {
-        height: 180px;
-        border-radius: 10px 10px 0px 0px;
-        width: 300px;
     }
     background-color: $lit;
-}
-.love {
-    .clear {
-        display: none;
-    }
-    &__heart {
-        &-input:checked + label {
-            .clear {
-                display: inline;
-            }
-            .fill
-
-        }
-    }
 }

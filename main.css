@@ -90,16 +90,6 @@
   height: 150px;
 }
 
-.cards__image .new button {
-  display: flex;
-  justify-content: center;
-  padding: 0px 10px 0px 10px;
-  width: 60px;
-  border-radius: 8px;
-  background-color: lawngreen;
-  border: lawngreen;
-}
-
 .cards__box {
   background-color: #fff;
   width: 300px;
@@ -110,21 +100,33 @@
 
 .cards__bottom {
   display: flex;
-  flex-flow: row;
-  line-height: 0px;
-  margin-top: -8px;
-  justify-content: space-between;
+  line-height: 1px;
 }
 
 .cards__bottom-text {
-  padding: 0px 0px 0px 10px;
-  background-clip: text;
-  text-fill-color: transparent;
+  display: flex;
+  flex-flow: wrap;
 }
 
-.cards img {
-  height: 180px;
-  border-radius: 10px 10px 0px 0px;
-  width: 300px;
+.cards__bottom-text .love__heart {
+  padding: 0px 20px 0px 0px;
+  font-size: 30px;
+}
+
+.cards__bottom-text .love__heart .fill {
+  display: none;
+}
+
+.cards__bottom-text .love__heart input {
+  display: none;
+}
+
+.cards__bottom-text .love__heart-input:checked + label .fill {
+  display: inline;
+  color: blue;
+}
+
+.cards__bottom-text .love__heart-input:checked + label .clear {
+  display: none;
 }
 /*# sourceMappingURL=main.css.map */
