@@ -1,53 +1,56 @@
-
-@import "../abstracts/mixins";
-@import "../components/buttons";
-
-.cards {
+.restaurants {
     display: flex;
     flex-flow: column;
     align-items: center;
-    width: 100%;
-    height: 500px;
+    background-color: #f6f6f6;
+}
+.res-card {
+    background-color: #fff;
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 5px 5px #e6e6e6;
+}
+.res-card p {
+    margin: 7px 0px 10px 0px;
+    padding-bottom: 5px;
+}
+.res-image {
+    height: 180px;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 1;
     border-radius: 10px 10px 0px 0px;
-    &__image {
-        object-fit: fill;
-        height: 150px;
+}
+.res-text {
+    padding-left: 8px;
+}
+.res-text-section {
+    display: flex;
+    justify-content: space-between;
+    line-height: 0;
+}
+.heart {
+    align-self: center;
+    font-size: 25px
+}
+.love {
+    &__heart {
+        padding: 0px 20px 0px 0px;
+        font-size: 30px;
+    .fill {
+        display: none;
     }
-    &__box {
-        background-color: #fff;
-        width: 300px;
-        margin: 20px;
-        border-radius: 10px 10px 10px 10px;
-        box-shadow: 2px 2px 5px 5px #e6e6e6;
+    input {
+        display: none;
     }
-    &__bottom {
-        display: flex;
-        line-height: 1px;
-        &-text {
-            display: flex;
-            flex-flow: wrap;
-            .love {
-                &__heart {
-                    padding: 0px 20px 0px 0px;
-                    font-size: 30px;
-                .fill {
-                    display: none;
-                }
-                input {
-                    display: none;
-                }
-                &-input:checked + label {
-                    .fill {
-                        display: inline;
-                        color: blue;
-                    }
-                    .clear {
-                        display: none;
-                    }
-                }
-            }
-            }
+    &-input:checked + label {
+        .fill {
+            display: inline;
+            color: rgb(253, 0, 84);
+        }
+        .clear {
+            display: none;
         }
     }
-    background-color: $lit;
-}
+}}
