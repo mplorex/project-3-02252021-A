@@ -22,3 +22,24 @@
         }
     }}
 }
+
+@mixin new {
+    .new button {
+        display: flex;
+        justify-content: center;
+        font-weight: bolder;
+        font-size: 15px;
+        padding: 3px;
+        width: 70px;
+        border-radius: 3px;
+        box-shadow: 0 0 2px #eee;
+        cursor:pointer;
+        border:none;
+        outline: none;
+        color: #15ac88;
+        background-color: #84e9d0;
+        position: absolute;
+        top:20px;
+        right:10px;
+    }
+}

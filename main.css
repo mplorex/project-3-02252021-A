@@ -82,6 +82,23 @@
   background-color: #f6f6f6;
 }
 
+.card {
+  position: relative;
+  background-color: #fff;
+  width: 300px;
+  margin: 20px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 2px 2px 5px 5px #e6e6e6;
+}
+
+.card__image {
+  height: 180px;
+  background-position: center;
+  background-size: cover;
+  flex-grow: 1;
+  border-radius: 10px 10px 0px 0px;
+}
+
 .card__image .new button {
   display: flex;
   justify-content: center;
@@ -99,23 +116,6 @@
   position: absolute;
   top: 20px;
   right: 10px;
-}
-
-.card {
-  position: relative;
-  background-color: #fff;
-  width: 300px;
-  margin: 20px;
-  border-radius: 10px 10px 10px 10px;
-  box-shadow: 2px 2px 5px 5px #e6e6e6;
-}
-
-.card__image {
-  height: 180px;
-  background-position: center;
-  background-size: cover;
-  flex-grow: 1;
-  border-radius: 10px 10px 0px 0px;
 }
 
 .card p {
