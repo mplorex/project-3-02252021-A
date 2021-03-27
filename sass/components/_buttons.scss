@@ -1,0 +1,24 @@
+@mixin heart-icon {
+    .love {
+        align-self: center;
+        font-size: 25px;
+        &__heart {
+            padding: 0px 20px 0px 0px;
+            font-size: 30px;
+        .fill {
+            display: none;
+        }
+        input {
+            display: none;
+        }
+        &-input:checked + label {
+            .fill {
+                display: inline;
+                color: rgb(253, 0, 84);
+            }
+            .clear {
+                display: none;
+            }
+        }
+    }}
+}

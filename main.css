@@ -75,14 +75,34 @@
   object-fit: cover;
 }
 
-.restaurants {
+.cards {
   display: flex;
   flex-flow: column;
   align-items: center;
   background-color: #f6f6f6;
 }
 
-.res-card {
+.card__image .new button {
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  font-size: 15px;
+  padding: 3px;
+  width: 70px;
+  border-radius: 3px;
+  box-shadow: 0 0 2px #eee;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: #15ac88;
+  background-color: #84e9d0;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.card {
+  position: relative;
   background-color: #fff;
   width: 300px;
   margin: 20px;
@@ -90,12 +110,7 @@
   box-shadow: 2px 2px 5px 5px #e6e6e6;
 }
 
-.res-card p {
-  margin: 7px 0px 10px 0px;
-  padding-bottom: 5px;
-}
-
-.res-image {
+.card__image {
   height: 180px;
   background-position: center;
   background-size: cover;
@@ -103,17 +118,22 @@
   border-radius: 10px 10px 0px 0px;
 }
 
-.res-text {
-  padding-left: 8px;
+.card p {
+  margin: 7px 0px 10px 0px;
+  padding-bottom: 5px;
 }
 
-.res-text-section {
+.card .text {
   display: flex;
   justify-content: space-between;
   line-height: 0;
 }
 
-.heart {
+.card .text__section {
+  padding: 8px;
+}
+
+.love {
   align-self: center;
   font-size: 25px;
 }
