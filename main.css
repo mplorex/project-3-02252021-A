@@ -80,6 +80,7 @@
   flex-flow: column;
   align-items: center;
   background-color: #f6f6f6;
+  width: 100%;
 }
 
 .card {
@@ -158,5 +159,27 @@
 
 .love__heart-input:checked + label .clear {
   display: none;
+}
+
+.footer {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-color: #5f5b5b;
+  color: #fff;
+  padding: 30px;
+}
+
+.footer img {
+  width: 100px;
+}
+
+.footer ul {
+  margin: 2px;
+}
+
+.footer ul li {
+  list-style-type: none;
+  line-height: 1.7;
 }
 /*# sourceMappingURL=main.css.map */
