@@ -171,7 +171,10 @@
 }
 
 .footer img {
-  width: 100px;
+  color: #fff;
+  margin-left: -60px;
+  margin-bottom: 10px;
+  width: 120px;
 }
 
 .footer ul {
