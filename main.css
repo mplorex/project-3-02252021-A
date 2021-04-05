@@ -1,7 +1,15 @@
+body {
+  margin: 0px;
+}
+
 .container {
   display: flex;
   align-items: center;
   flex-flow: column;
+}
+
+body {
+  margin: 0px;
 }
 
 .container {
