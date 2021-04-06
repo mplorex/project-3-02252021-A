@@ -2,6 +2,10 @@ body {
   margin: 0px;
 }
 
+body h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
 .container {
   display: flex;
   align-items: center;
@@ -10,6 +14,10 @@ body {
 
 body {
   margin: 0px;
+}
+
+body h2 {
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -39,6 +47,10 @@ body {
   border-radius: 20px;
 }
 
+.filters__btn b {
+  font-family: 'Roboto', sans-serif;
+}
+
 .filters__btn i {
   margin-left: 30px;
   padding-right: 20px;
@@ -64,6 +76,11 @@ body {
   width: 100%;
   padding-bottom: 30px;
   background-color: #f6f6f6;
+  font-family: 'Roboto', sans-serif;
+}
+
+.menu p {
+  font-weight: lighter;
 }
 
 .explore {
@@ -127,19 +144,27 @@ body {
   right: 10px;
 }
 
+.card h6 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+}
+
 .card p {
-  margin: 7px 0px 10px 0px;
+  font-family: 'Roboto', sans-serif;
+  margin: -15px 0px 15px 0px;
   padding-bottom: 5px;
+  font-weight: lighter;
 }
 
 .card .text {
   display: flex;
   justify-content: space-between;
   line-height: 0;
+  margin-top: -14px;
 }
 
 .card .text__section {
-  padding: 8px;
+  padding: 0px 0px 0px 8px;
 }
 
 .love {
@@ -148,7 +173,7 @@ body {
 }
 
 .love__heart {
-  padding: 0px 20px 0px 0px;
+  padding: 10px 20px 0px 0px;
   font-size: 30px;
 }
 

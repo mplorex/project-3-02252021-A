@@ -7,6 +7,10 @@
     width: 100%;
     padding-bottom: 30px;
     background-color: $lit;
+    font-family: 'Roboto', sans-serif;
+    p {
+        font-weight: lighter;
+    }
 }
 .explore {
     display: flex;
