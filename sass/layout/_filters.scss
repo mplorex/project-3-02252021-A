@@ -1,28 +1,40 @@
 .filters {
+    margin: 25px 0px 30px 30px;
+    width: 100%;
     .f-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         color: #fff;
-        background-color: #ba00dd;
-        width: 18px;
-        height: 20px;
+        background-color: #a100c1;
+        width: 20px;
+        height: 22px;
         border-radius: 15px;
-        margin: -5px;
-        text-align: center;
+        margin: 12px 0px 0px -7px;
+        font-size: 15px;
     }
     &__btn {
         display: flex;
         justify-content: left;
         align-items: center;
-        height: 55px;
-        width: 400px;
-        margin: 20px;
+        height: 75px;
+        width: 350px;
+        margin: 17px;
         background-color: #f6f6f6;
         border-radius: 20px;
         b {
             font-family: 'Roboto', sans-serif;
         }
         i {
+            color: #383838;
             margin-left: 30px;
             padding-right: 20px;
+        }
+        &-pink {
+            background-color: #f8e8ff;
+            i {
+                color: #a100c1;;
+            }
         }
     }
 }

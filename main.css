@@ -1,8 +1,5 @@
 body {
   margin: 0px;
-}
-
-body h2 {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -14,9 +11,6 @@ body h2 {
 
 body {
   margin: 0px;
-}
-
-body h2 {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -26,23 +20,31 @@ body h2 {
   flex-flow: column;
 }
 
+.filters {
+  margin: 25px 0px 30px 30px;
+  width: 100%;
+}
+
 .filters .f-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #fff;
-  background-color: #ba00dd;
-  width: 18px;
-  height: 20px;
+  background-color: #a100c1;
+  width: 20px;
+  height: 22px;
   border-radius: 15px;
-  margin: -5px;
-  text-align: center;
+  margin: 12px 0px 0px -7px;
+  font-size: 15px;
 }
 
 .filters__btn {
   display: flex;
   justify-content: left;
   align-items: center;
-  height: 55px;
-  width: 400px;
-  margin: 20px;
+  height: 75px;
+  width: 350px;
+  margin: 17px;
   background-color: #f6f6f6;
   border-radius: 20px;
 }
@@ -52,8 +54,17 @@ body h2 {
 }
 
 .filters__btn i {
+  color: #383838;
   margin-left: 30px;
   padding-right: 20px;
+}
+
+.filters__btn-pink {
+  background-color: #f8e8ff;
+}
+
+.filters__btn-pink i {
+  color: #a100c1;
 }
 
 .location {
@@ -61,12 +72,20 @@ body h2 {
   justify-content: center;
   background-color: #e0e0e0;
   width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
+  color: #383838;
 }
 
 .location i {
   font-size: 20px;
   align-self: center;
-  padding: 5px;
+  padding: 15px;
+}
+
+.location p {
+  padding-top: 2px;
 }
 
 .menu {
@@ -81,6 +100,8 @@ body h2 {
 
 .menu p {
   font-weight: lighter;
+  display: flex;
+  flex-flow: wrap;
 }
 
 .explore {
@@ -91,12 +112,13 @@ body h2 {
   background: linear-gradient(135deg, #ff2fd9 0%, #a100c1 96%, #a100c1 96%, #a100c1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff2fd9', endColorstr='#a100c1',GradientType=1 );
   color: #fff;
-  width: 240px;
-  height: 40px;
-  border-radius: 20px;
+  width: 260px;
+  height: 50px;
+  border-radius: 30px;
 }
 
 .nav {
+  padding-top: 20px;
   object-fit: cover;
 }
 
