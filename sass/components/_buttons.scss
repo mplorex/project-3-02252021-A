@@ -1,3 +1,4 @@
+@import '../abstracts/mixins';
 
 @mixin heart-icon {
     .love {
@@ -16,7 +17,7 @@
             cursor: pointer;
             .fill {
                 display: inline;
-                color: rgb(253, 0, 84);
+                @include h-color;
             }
             .clear {
                 display: none;

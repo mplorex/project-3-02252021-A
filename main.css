@@ -116,7 +116,7 @@ body {
   justify-content: center;
   align-items: center;
   background: #ff2fd9;
-  background: linear-gradient(135deg, #ff2fd9 0%, #a100c1 96%, #a100c1 96%, #a100c1 100%);
+  background: linear-gradient(175deg, #ff2fd9 0%, #a100c1 96%, #a100c1 96%, #a100c1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff2fd9', endColorstr='#a100c1',GradientType=1 );
   color: #fff;
   width: 260px;
@@ -222,7 +222,11 @@ body {
 
 .love__heart-input:checked + label .fill {
   display: inline;
-  color: #fd0054;
+  color: #ff2fd9;
+  display: block;
+  background: -webkit-linear-gradient(25deg, #ff2fd9, #9c47fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .love__heart-input:checked + label .clear {

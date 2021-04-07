@@ -5,8 +5,16 @@ $drk-blk: #5b5b5b;
 
 @mixin btn {
     background: rgb(255,47,217);
-    background: -moz-linear-gradient(-45deg, rgb(255,47,217) 0%, rgb(161,0,193) 96%, rgb(161,0,193) 96%, rgb(161,0,193) 100%);
-    background: -webkit-linear-gradient(-45deg, rgb(255,47,217) 0%,rgb(161,0,193) 96%,rgb(161,0,193) 96%,rgb(161,0,193) 100%);
-    background: linear-gradient(135deg, rgb(255,47,217) 0%,rgb(161,0,193) 96%,rgb(161,0,193) 96%,rgb(161,0,193) 100%);
+    background: -moz-linear-gradient(-30deg, rgb(255,47,217) 0%, rgb(161,0,193) 96%, rgb(161,0,193) 96%, rgb(161,0,193) 100%);
+    background: -webkit-linear-gradient(-30deg, rgb(255,47,217) 0%,rgb(161,0,193) 96%,rgb(161,0,193) 96%,rgb(161,0,193) 100%);
+    background: linear-gradient(175deg, rgb(255,47,217) 0%,rgb(161,0,193) 96%,rgb(161,0,193) 96%,rgb(161,0,193) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff2fd9', endColorstr='#a100c1',GradientType=1 );
+}
+
+@mixin h-color {
+    color: #ff2fd9;
+    display: block;
+    background: -webkit-linear-gradient(25deg, #ff2fd9, #9c47fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
