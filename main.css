@@ -21,8 +21,15 @@ body {
 }
 
 .filters {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
   margin: 25px 0px 30px 30px;
   width: 100%;
+}
+
+.filters h2 {
+  margin-left: -200px;
 }
 
 .filters .f-text {
@@ -43,8 +50,8 @@ body {
   justify-content: left;
   align-items: center;
   height: 75px;
-  width: 350px;
-  margin: 17px;
+  width: 315px;
+  margin: 17px 20px 0px 0px;
   background-color: #f6f6f6;
   border-radius: 20px;
 }
@@ -128,6 +135,10 @@ body {
   align-items: center;
   background-color: #f6f6f6;
   width: 100%;
+}
+
+.cards h2 {
+  margin-left: -180px;
 }
 
 .card {
@@ -221,21 +232,19 @@ body {
 .footer {
   display: flex;
   flex-flow: column;
-  align-items: center;
+  align-items: flex-start;
   background-color: #5f5b5b;
   color: #fff;
   padding: 30px;
 }
 
 .footer img {
-  color: #fff;
-  margin-left: -60px;
+  height: 40px;
   margin-bottom: 10px;
-  width: 120px;
 }
 
 .footer ul {
-  margin: 2px;
+  margin: 2px 2px 2px -37px;
 }
 
 .footer ul li {

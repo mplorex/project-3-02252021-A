@@ -3,18 +3,16 @@
 .footer {
     display: flex;
     flex-flow: column;
-    align-items: center;
+    align-items: flex-start;
     background-color:  #5f5b5b;
     color: #fff;
     padding: 30px;
     img {
-        color: #fff;
-        margin-left: -60px;
+        height: 40px;
         margin-bottom: 10px;
-        width: 120px;
     }
     ul {
-        margin: 2px;
+        margin: 2px 2px 2px -37px;
         li {
             list-style-type: none;
             line-height: 1.7;

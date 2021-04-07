@@ -1,6 +1,12 @@
 .filters {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
     margin: 25px 0px 30px 30px;
     width: 100%;
+    h2 {
+        margin-left: -200px;
+    }
     .f-text {
         display: flex;
         justify-content: center;
@@ -18,8 +24,8 @@
         justify-content: left;
         align-items: center;
         height: 75px;
-        width: 350px;
-        margin: 17px;
+        width: 315px;
+        margin: 17px 20px 0px 0px;
         background-color: #f6f6f6;
         border-radius: 20px;
         b {
