@@ -1,4 +1,9 @@
 .nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
     padding-top: 20px;
     object-fit: cover;
+    box-shadow: 0px 11px 3px -8px rgba(0, 0, 0, 0.24);
+    margin-bottom: 3px;
     }

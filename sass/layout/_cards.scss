@@ -1,15 +1,6 @@
 @import "../components/buttons";
 
-.cards {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    background-color: #f6f6f6;
-    width: 100%;
-    h2 {
-        margin-left: -180px;
-    }
-}
+@import "../abstracts/mixins";
 
 .card {
     position: relative;
@@ -26,24 +17,23 @@
         border-radius: 10px 10px 0px 0px;
         @include new;
     }
-    h6 {
-        font-family: 'Roboto', sans-serif;
-        font-size: 17px;
-    }
-    p {
-        font-family: 'Roboto', sans-serif;
-        margin: -15px 0px 15px 0px;
-        padding-bottom: 5px;
-        color: #383838;
-    }
-    .text {
+    &__text {
         display: flex;
         justify-content: space-between;
         line-height: 0;
         margin-top: -14px;
-        &__section {
+        &-section {
             padding: 0px 0px 5px 8px;
         }
     }
+    h6 {
+        font-size: 17px;
+    }
+    p {
+        margin: -15px 0px 15px 0px;
+        padding-bottom: 5px;
+        color: #383838;
+    }
 }
 @include heart-icon;
+@include card

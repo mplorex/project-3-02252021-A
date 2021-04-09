@@ -56,10 +56,6 @@ body {
   border-radius: 20px;
 }
 
-.filters__btn b {
-  font-family: 'Roboto', sans-serif;
-}
-
 .filters__btn i {
   color: #383838;
   margin-left: 30px;
@@ -125,20 +121,13 @@ body {
 }
 
 .nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   padding-top: 20px;
   object-fit: cover;
-}
-
-.cards {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  background-color: #f6f6f6;
-  width: 100%;
-}
-
-.cards h2 {
-  margin-left: -180px;
+  box-shadow: 0px 11px 3px -8px rgba(0, 0, 0, 0.24);
+  margin-bottom: 3px;
 }
 
 .card {
@@ -175,27 +164,25 @@ body {
   right: 10px;
 }
 
-.card h6 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 17px;
-}
-
-.card p {
-  font-family: 'Roboto', sans-serif;
-  margin: -15px 0px 15px 0px;
-  padding-bottom: 5px;
-  color: #383838;
-}
-
-.card .text {
+.card__text {
   display: flex;
   justify-content: space-between;
   line-height: 0;
   margin-top: -14px;
 }
 
-.card .text__section {
+.card__text-section {
   padding: 0px 0px 5px 8px;
+}
+
+.card h6 {
+  font-size: 17px;
+}
+
+.card p {
+  margin: -15px 0px 15px 0px;
+  padding-bottom: 5px;
+  color: #383838;
 }
 
 .love {
@@ -231,6 +218,18 @@ body {
 
 .love__heart-input:checked + label .clear {
   display: none;
+}
+
+.cards {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-color: #f6f6f6;
+  width: 100%;
+}
+
+.cards h2 {
+  margin-left: -180px;
 }
 
 .footer {

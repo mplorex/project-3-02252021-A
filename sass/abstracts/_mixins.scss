@@ -18,3 +18,16 @@ $drk-blk: #5b5b5b;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+@mixin card {
+    .cards {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        background-color: #f6f6f6;
+        width: 100%;
+        h2 {
+            margin-left: -180px;
+        }
+    }
+}
