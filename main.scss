@@ -1,20 +1,18 @@
-@import "./sass/layout/ctn";
-
 @import "./sass/abstracts/mixins";
 
-@import "./sass/layout/ctn";
+@import "./sass/layout/container";
 
-@import "./sass/layout/filters";
+@import "./sass/components/filters";
 
-@import "./sass/layout/location";
+@import "./sass/components/location";
 
-@import "./sass/layout/menu";
+@import "./sass/components/menu";
 
-@import "./sass/layout/nav";
+@import "./sass/components/nav";
 
-@import "./sass/layout/cards";
+@import "./sass/components/cards";
 
 @import "./sass/components/buttons";
 
-@import "./sass/layout/footer";
+@import "./sass/components/footer";
 

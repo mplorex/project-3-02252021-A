@@ -9,17 +9,6 @@ body {
   flex-flow: column;
 }
 
-body {
-  margin: 0px;
-  font-family: 'Roboto', sans-serif;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  flex-flow: column;
-}
-
 .filters {
   display: flex;
   flex-flow: column;
@@ -54,6 +43,7 @@ body {
   margin: 17px 20px 0px 0px;
   background-color: #f6f6f6;
   border-radius: 20px;
+  box-shadow: 0px 3px 5px 2px #e6e6e6;
 }
 
 .filters__btn i {
@@ -126,7 +116,7 @@ body {
   width: 100%;
   padding-top: 20px;
   object-fit: cover;
-  box-shadow: 0px 11px 3px -8px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 12px 3px -8px rgba(0, 0, 0, 0.24);
   margin-bottom: 3px;
 }
 
