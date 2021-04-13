@@ -1,0 +1,13 @@
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    padding-top: 20px;
+    margin-bottom: 12px;
+    margin-left: -70px;
+    color: #353535;
+    &__icon {
+        font-size: 23px;
+    }
+}
