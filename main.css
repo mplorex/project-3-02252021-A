@@ -81,7 +81,7 @@ body {
   padding-top: 2px;
 }
 
-.menu {
+.header {
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -91,7 +91,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.menu p {
+.header p {
   font-weight: lighter;
   display: flex;
   flex-flow: wrap;
@@ -244,5 +244,525 @@ body {
 .footer ul li {
   list-style-type: none;
   line-height: 1.7;
+}
+
+.ctn {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.image img {
+  width: 350px;
+}
+
+.menu {
+  background-color: hotpink;
+  border-radius: 30px 30px 0px 0px;
+  margin-top: -45px;
+  width: 330px;
+  padding: 10px;
+}
+
+.menu h4 {
+  font-size: 12px;
+  border-bottom: 2px solid green;
+  width: 43px;
+}
+
+.menu__text {
+  align-self: flex-start;
+}
+
+.menu__btns {
+  display: block;
+  width: 100%;
+}
+
+.menu__btn {
+  transition: all 0.3s linear;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 14px 15px 12px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  display: block;
+  color: #000;
+}
+
+.menu__btn-price {
+  text-align: right;
+  margin-left: auto;
+  font-size: 20px;
+}
+
+.menu__btn-card {
+  opacity: 0;
+}
+
+.menu__btn-card:nth-child(n + 1) {
+  animation: 0.85s ease 0.1s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 2) {
+  animation: 0.85s ease 0.2s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 3) {
+  animation: 0.85s ease 0.3s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 4) {
+  animation: 0.85s ease 0.4s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 5) {
+  animation: 0.85s ease 0.5s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 6) {
+  animation: 0.85s ease 0.6s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 7) {
+  animation: 0.85s ease 0.7s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 8) {
+  animation: 0.85s ease 0.8s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 9) {
+  animation: 0.85s ease 0.9s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 10) {
+  animation: 0.85s ease 1s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 11) {
+  animation: 0.85s ease 1.1s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 12) {
+  animation: 0.85s ease 1.2s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 13) {
+  animation: 0.85s ease 1.3s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 14) {
+  animation: 0.85s ease 1.4s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 15) {
+  animation: 0.85s ease 1.5s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 16) {
+  animation: 0.85s ease 1.6s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 17) {
+  animation: 0.85s ease 1.7s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 18) {
+  animation: 0.85s ease 1.8s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 19) {
+  animation: 0.85s ease 1.9s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 20) {
+  animation: 0.85s ease 2s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 21) {
+  animation: 0.85s ease 2.1s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 22) {
+  animation: 0.85s ease 2.2s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 23) {
+  animation: 0.85s ease 2.3s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 24) {
+  animation: 0.85s ease 2.4s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 25) {
+  animation: 0.85s ease 2.5s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 26) {
+  animation: 0.85s ease 2.6s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 27) {
+  animation: 0.85s ease 2.7s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 28) {
+  animation: 0.85s ease 2.8s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 29) {
+  animation: 0.85s ease 2.9s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 30) {
+  animation: 0.85s ease 3s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 31) {
+  animation: 0.85s ease 3.1s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 32) {
+  animation: 0.85s ease 3.2s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 33) {
+  animation: 0.85s ease 3.3s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 34) {
+  animation: 0.85s ease 3.4s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 35) {
+  animation: 0.85s ease 3.5s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 36) {
+  animation: 0.85s ease 3.6s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 37) {
+  animation: 0.85s ease 3.7s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 38) {
+  animation: 0.85s ease 3.8s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 39) {
+  animation: 0.85s ease 3.9s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 40) {
+  animation: 0.85s ease 4s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 41) {
+  animation: 0.85s ease 4.1s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 42) {
+  animation: 0.85s ease 4.2s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 43) {
+  animation: 0.85s ease 4.3s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 44) {
+  animation: 0.85s ease 4.4s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 45) {
+  animation: 0.85s ease 4.5s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 46) {
+  animation: 0.85s ease 4.6s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 47) {
+  animation: 0.85s ease 4.7s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 48) {
+  animation: 0.85s ease 4.8s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 49) {
+  animation: 0.85s ease 4.9s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 50) {
+  animation: 0.85s ease 5s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 51) {
+  animation: 0.85s ease 5.1s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 52) {
+  animation: 0.85s ease 5.2s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 53) {
+  animation: 0.85s ease 5.3s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 54) {
+  animation: 0.85s ease 5.4s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 55) {
+  animation: 0.85s ease 5.5s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 56) {
+  animation: 0.85s ease 5.6s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 57) {
+  animation: 0.85s ease 5.7s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 58) {
+  animation: 0.85s ease 5.8s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 59) {
+  animation: 0.85s ease 5.9s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 60) {
+  animation: 0.85s ease 6s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 61) {
+  animation: 0.85s ease 6.1s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 62) {
+  animation: 0.85s ease 6.2s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 63) {
+  animation: 0.85s ease 6.3s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 64) {
+  animation: 0.85s ease 6.4s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 65) {
+  animation: 0.85s ease 6.5s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 66) {
+  animation: 0.85s ease 6.6s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 67) {
+  animation: 0.85s ease 6.7s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 68) {
+  animation: 0.85s ease 6.8s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 69) {
+  animation: 0.85s ease 6.9s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 70) {
+  animation: 0.85s ease 7s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 71) {
+  animation: 0.85s ease 7.1s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 72) {
+  animation: 0.85s ease 7.2s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 73) {
+  animation: 0.85s ease 7.3s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 74) {
+  animation: 0.85s ease 7.4s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 75) {
+  animation: 0.85s ease 7.5s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 76) {
+  animation: 0.85s ease 7.6s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 77) {
+  animation: 0.85s ease 7.7s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 78) {
+  animation: 0.85s ease 7.8s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 79) {
+  animation: 0.85s ease 7.9s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 80) {
+  animation: 0.85s ease 8s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 81) {
+  animation: 0.85s ease 8.1s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 82) {
+  animation: 0.85s ease 8.2s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 83) {
+  animation: 0.85s ease 8.3s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 84) {
+  animation: 0.85s ease 8.4s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 85) {
+  animation: 0.85s ease 8.5s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 86) {
+  animation: 0.85s ease 8.6s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 87) {
+  animation: 0.85s ease 8.7s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 88) {
+  animation: 0.85s ease 8.8s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 89) {
+  animation: 0.85s ease 8.9s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 90) {
+  animation: 0.85s ease 9s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 91) {
+  animation: 0.85s ease 9.1s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 92) {
+  animation: 0.85s ease 9.2s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 93) {
+  animation: 0.85s ease 9.3s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 94) {
+  animation: 0.85s ease 9.4s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 95) {
+  animation: 0.85s ease 9.5s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 96) {
+  animation: 0.85s ease 9.6s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 97) {
+  animation: 0.85s ease 9.7s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 98) {
+  animation: 0.85s ease 9.8s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 99) {
+  animation: 0.85s ease 9.9s forwards scrollLoad;
+}
+
+.menu__btn-card:nth-child(n + 100) {
+  animation: 0.85s ease 10s forwards scrollLoad;
+}
+
+.menu__btn-card input:checked ~ label {
+  padding-right: 65px;
+}
+
+.menu__btn-card input:checked ~ label .menu__btn-icon {
+  right: 0;
+}
+
+.menu__btn-card input:checked ~ label .menu__btn-icon img {
+  transform: rotate(0deg);
+}
+
+.menu__btn h5 {
+  margin: 0px 0px 5px;
+  font-size: 16px;
+}
+
+.menu__btn-icon {
+  display: flex;
+  transition: all 0.4s ease;
+  border-radius: 0 20px 2px 0;
+  background-color: #62d4d2;
+  position: absolute;
+  height: 100%;
+  right: -60px;
+  width: 55px;
+  top: 0;
+}
+
+.menu__btn-icon img {
+  transition: all 0.6s ease;
+  transform: rotate(-180deg);
+  margin: auto;
+  width: 24px;
+}
+
+.menu__btn-bottom {
+  display: flex;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.menu__btn-bottom p {
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+  padding-right: 5px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@keyframes scrollLoad {
+  0% {
+    transform: translate(0, 15px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
 }
 /*# sourceMappingURL=main.css.map */

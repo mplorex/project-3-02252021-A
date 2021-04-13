@@ -2,6 +2,9 @@
 $drk: rgb(224, 224, 224);
 $lit: #f6f6f6;
 $drk-blk: #5b5b5b;
+$white : #fff;
+$primary : #62d4d2;
+$dark : #000;
 
 @mixin btn {
     background: rgb(255,47,217);
@@ -30,4 +33,49 @@ $drk-blk: #5b5b5b;
             margin-left: -180px;
         }
     }
+}
+
+@mixin flexbox() {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex ;
+}
+@mixin align-items($align) {
+    -webkit-align-items: $align;
+    -moz-align-items: $align;
+    -ms-align-items: $align;
+    -ms-flex-align: $align;
+    align-items: $align;
+}  
+@mixin transition($transition...) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+}
+@mixin rotate($deg...){
+    -moz-transform:    rotate($deg);
+    -o-transform:      rotate($deg);
+    -webkit-transform: rotate($deg);
+    transform:         rotate($deg);
+}
+@mixin rotate($deg...){
+    -moz-transform:    rotate($deg);
+    -o-transform:      rotate($deg);
+    -webkit-transform: rotate($deg);
+    transform:         rotate($deg);
+}
+@mixin translate($x, $y){
+    -moz-transform:    translate($x, $y);
+    -o-transform:      translate($x, $y);
+    -webkit-transform: translate($x, $y);
+    transform:         translate($x, $y);
+}
+@mixin animate($anim...){
+    -webkit-animation: $anim;
+    -moz-animation: $anim;
+    -o-animation: $anim;
+    animation: $anim;
 }
