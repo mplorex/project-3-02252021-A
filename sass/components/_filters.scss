@@ -1,3 +1,5 @@
+@import '../abstracts/mixins';
+
 .filters {
     display: flex;
     flex-flow: column;
@@ -11,8 +13,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        color: #fff;
-        background-color: #a100c1;
+        color: $white;
+        background-color: $purp;
         width: 19px;
         height: 22px;
         border-radius: 15px;
@@ -26,18 +28,18 @@
         height: 75px;
         width: 315px;
         margin: 17px 20px 0px 0px;
-        background-color: #f6f6f6;
+        background-color: $lit;
         border-radius: 20px;
         box-shadow: 0px 3px 5px 2px #e6e6e6;
         i {
-            color: #383838;
+            color: $gry;
             margin-left: 30px;
             padding-right: 20px;
         }
         &-pink {
             background-color: #f8e8ff;
             i {
-                color: #a100c1;;
+                color: $purp;
             }
         }
     }

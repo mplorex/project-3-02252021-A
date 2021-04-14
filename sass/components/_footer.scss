@@ -1,11 +1,11 @@
-
+@import '../abstracts/mixins';
 
 .footer {
     display: flex;
     flex-flow: column;
     align-items: flex-start;
     background-color:  #5f5b5b;
-    color: #fff;
+    color: $white;
     padding: 30px;
     width: 100%;
     img {
