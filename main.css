@@ -139,6 +139,21 @@ body {
   color: #2b2b2b;
 }
 
+.order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px auto;
+  background: #ff2fd9;
+  background: linear-gradient(175deg, #ff2fd9 0%, #a100c1 96%, #a100c1 96%, #a100c1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff2fd9', endColorstr='#a100c1',GradientType=1 );
+  color: #fff;
+  width: 260px;
+  height: 50px;
+  border-radius: 30px;
+  box-shadow: 0px 3px 3px 2px #d3d2d2;
+}
+
 .card {
   position: relative;
   background-color: #fff;
@@ -245,6 +260,21 @@ body {
 
 .cards h2 {
   margin-left: -180px;
+}
+
+.order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px auto;
+  background: #ff2fd9;
+  background: linear-gradient(175deg, #ff2fd9 0%, #a100c1 96%, #a100c1 96%, #a100c1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff2fd9', endColorstr='#a100c1',GradientType=1 );
+  color: #fff;
+  width: 260px;
+  height: 50px;
+  border-radius: 30px;
+  box-shadow: 0px 3px 3px 2px #d3d2d2;
 }
 
 .footer {
