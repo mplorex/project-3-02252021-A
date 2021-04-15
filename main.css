@@ -369,6 +369,7 @@ body {
 }
 
 .menu__btn-price {
+  display: block;
   text-align: right;
   margin-left: auto;
   font-size: 20px;
@@ -815,20 +816,11 @@ body {
 }
 
 .menu__btn-bottom {
+  font-weight: lighter;
   display: flex;
   -moz-align-items: center;
   -ms-align-items: center;
   align-items: center;
-}
-
-.menu__btn-bottom p {
-  margin: 0;
-  width: 100%;
-  overflow: hidden;
-  padding-right: 5px;
-  white-space: nowrap;
-  font-weight: lighter;
-  text-overflow: ellipsis;
 }
 
 @keyframes scrollLoad {

@@ -46,6 +46,7 @@
         color: $dark;
         box-shadow: 0 5px 7px 0 rgba(70, 70, 70, 0.24), 0 .5px 7px 0 rgba(100, 100, 100, 0.19);
         &-price {
+            display: block;
             text-align: right;
             margin-left: auto;
             font-size: 20px;
@@ -98,18 +99,9 @@
         }
 
         &-bottom {
+            font-weight: lighter;
             @include flexbox();
             @include align-items(center);
-
-            p {
-                margin: 0;
-                width: 100%;
-                overflow: hidden;
-                padding-right: 5px;
-                white-space: nowrap;
-                font-weight: lighter;
-                text-overflow: ellipsis;
-            }
         }
     }
 }
