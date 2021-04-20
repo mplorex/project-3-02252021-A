@@ -123,15 +123,16 @@ body {
 
 .navigation {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 300px;
-  padding-top: 20px;
-  margin-bottom: 12px;
-  margin-left: -70px;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 0px 10px 0px;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px 5px #e6e6e6;
 }
 
 .navigation__icon {
+  padding-right: 70px;
+  margin-left: -110px;
   font-size: 23px;
 }
 
@@ -284,7 +285,7 @@ body {
   align-items: flex-start;
   background-color: #5f5b5b;
   color: #fff;
-  padding: 20px 0px 0px 40px;
+  padding: 20px 0px 0px 0px;
   width: 100%;
 }
 
@@ -314,9 +315,6 @@ body {
     flex-flow: row;
     width: 100%;
     justify-content: space-evenly;
-  }
-  .footer ul li {
-    align-items: stretch;
   }
 }
 

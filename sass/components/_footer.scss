@@ -7,7 +7,7 @@
     align-items: flex-start;
     background-color:  #5f5b5b;
     color: $white;
-    padding: 20px 0px 0px 40px;
+    padding: 20px 0px 0px 0px;
     width: 100%;
     img {
         height: 40px;
@@ -33,9 +33,6 @@
             flex-flow: row;
             width: 100%;
             justify-content: space-evenly;
-            li {
-                align-items: stretch;
-            }
         }
     }
 }

@@ -1,12 +1,13 @@
 .navigation {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 300px;
-    padding-top: 20px;
-    margin-bottom: 12px;
-    margin-left: -70px;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0px 10px 0px;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 5px #e6e6e6;
     &__icon {
+        padding-right: 70px;
+        margin-left: -110px;
         font-size: 23px;
         i.fas.fa-arrow-left {
             color: rgb(43, 43, 43);
