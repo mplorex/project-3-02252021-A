@@ -329,7 +329,9 @@ body {
 }
 
 .image img {
-  width: 100%;
+  object-fit: cover;
+  width: 420px;
+  height: 300px;
 }
 
 .menu {
@@ -342,6 +344,7 @@ body {
 
 .menu h2 {
   margin-bottom: 0px;
+  font-family: 'Shrikhand', cursive;
 }
 
 .menu h4 {
