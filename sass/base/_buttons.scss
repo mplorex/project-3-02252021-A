@@ -10,7 +10,11 @@
             padding:10px 20px 0px 0px;
             font-size: 30px;
         .fill {
-            display: none;
+            position: relative;
+            opacity: 0;
+        }
+        .clear {
+            position: absolute;
         }
         input {
             display: none;
@@ -18,11 +22,12 @@
         &-input:checked + label {
             cursor: pointer;
             .fill {
-                display: inline;
                 @include h-color;
+                @include heart-transition;
             }
             .clear {
-                display: none;
+                @include h-color;
+                @include heart-transition;
             }
         }
     }}

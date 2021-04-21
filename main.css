@@ -52,11 +52,11 @@ body {
   padding-right: 20px;
 }
 
-.filters__btn-pink {
+.filters__btn:hover {
   background-color: #f8e8ff;
 }
 
-.filters__btn-pink i {
+.filters__btn:hover i {
   color: #a100c1;
 }
 
@@ -227,7 +227,12 @@ body {
 }
 
 .love__heart .fill {
-  display: none;
+  position: relative;
+  opacity: 0;
+}
+
+.love__heart .clear {
+  position: absolute;
 }
 
 .love__heart input {
@@ -239,16 +244,25 @@ body {
 }
 
 .love__heart-input:checked + label .fill {
-  display: inline;
   color: #ff2fd9;
   display: block;
   background: -webkit-linear-gradient(25deg, #ff2fd9, #9c47fc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  opacity: 1;
+  visibility: visible;
+  transition: all 2s linear;
 }
 
 .love__heart-input:checked + label .clear {
-  display: none;
+  color: #ff2fd9;
+  display: block;
+  background: -webkit-linear-gradient(25deg, #ff2fd9, #9c47fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 1;
+  visibility: visible;
+  transition: all 2s linear;
 }
 
 .cards {
@@ -299,6 +313,7 @@ body {
 }
 
 .footer ul li {
+  text-decoration: none;
   list-style-type: none;
   line-height: 1.7;
 }
