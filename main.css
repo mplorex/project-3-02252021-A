@@ -69,6 +69,7 @@ body {
   font-size: 15px;
   font-weight: bolder;
   color: #383838;
+  box-shadow: inset 0px 20px 10px -23px #696969;
 }
 
 .location i {
@@ -117,7 +118,6 @@ body {
   width: 100%;
   padding-top: 20px;
   object-fit: cover;
-  box-shadow: 0px 12px 3px 0px rgba(31, 31, 31, 0.24);
   margin-bottom: 3px;
 }
 
