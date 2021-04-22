@@ -16,11 +16,14 @@
     ul {
         margin: 2px 2px 2px 0px;
         li {
-            text-decoration: none;
             list-style-type: none;
             line-height: 1.7;
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
         }
-        }
+    }
 }
 
 @media screen and (min-width: 460px) {

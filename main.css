@@ -9,11 +9,20 @@ body {
   flex-flow: column;
 }
 
+.loader {
+  top: 50%;
+  left: 42%;
+  width: 120px;
+  height: 120px;
+  z-index: 99;
+  position: absolute;
+}
+
 .filters {
   display: flex;
   flex-flow: column;
   align-items: center;
-  padding: 20px 0px 65px 30px;
+  padding: 20px 0px 65px 0px;
   width: 100%;
 }
 
@@ -313,9 +322,13 @@ body {
 }
 
 .footer ul li {
-  text-decoration: none;
   list-style-type: none;
   line-height: 1.7;
+}
+
+.footer ul li a {
+  color: #fff;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 460px) {
