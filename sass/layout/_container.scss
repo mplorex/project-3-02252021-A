@@ -1,3 +1,4 @@
+@import '../abstracts/mixins';
 
 body {
     margin: 0px;
@@ -8,11 +9,5 @@ body {
     align-items: center;
     flex-flow: column;
 }
-.loader {
-    top: 50%;
-    left: 42%;
-    width: 120px;
-    height: 120px;
-    z-index: 99;
-    position: absolute;
-}
+
+@include loader;
