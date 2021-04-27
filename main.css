@@ -9,34 +9,6 @@ body {
   flex-flow: column;
 }
 
-.loader {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 99;
-  position: fixed;
-  background: #fff;
-  display: flex;
-  animation: 3s ease 3s forwards Loader;
-}
-
-img#loader-img {
-  margin: auto;
-  width: 100px;
-}
-
-@keyframes Loader {
-  0% {
-    opacity: 1;
-    visibility: visible;
-  }
-  100% {
-    opacity: 0;
-    visibility: hidden;
-  }
-}
-
 .filters {
   display: flex;
   flex-flow: column;
